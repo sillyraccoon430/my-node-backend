@@ -1,4 +1,4 @@
-﻿# my-node-backend
+
  # My Node Backend
 
 Ky është një projekt backend i zhvilluar me Node.js dhe MySQL që ofron një API të plotë për menaxhimin e të dhënave me funksionalitete CRUD, autentikim me JWT dhe autorizim me role.
@@ -22,26 +22,4 @@ Ky është një projekt backend i zhvilluar me Node.js dhe MySQL që ofron një 
 - Jest & Supertest (për testim)
 - Git për versionim
 
-## Si të përdorësh këtë projekt
 
-1. Klono repo-në:
-
-
-   git clone https://github.com/sillyraccoon430/my-node-backend.git
-Instaloni varësitë:
-npm install
-Krijo një file .env në root të projektit dhe shto konfigurimet:
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=yourdbname
-JWT_SECRET=your_jwt_secret
-Nis serverin:
-npm start
-Përdor endpoint-et sipas dokumentacionit ose testoj me Postman.
-
-Testimi
-Për të ekzekutuar testet, përdorni komandën:
-npm test
-
-faleminderit
